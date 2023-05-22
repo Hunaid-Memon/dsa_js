@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Two in Array</title>
+    <script>
+        let arr_1 = [1,5,8,9];
+        let arr_2 = [8,7,5,6];
+        let arr_3 = [];
+        for(i=0; i< arr_1.length; i++) {
+            arr_3[i] = arr_1[i]
+        }
+        for(i=0; i< arr_2.length; i++) {
+            arr_3[arr_1.length+i] = arr_2[i]
+        }
+         console.log(arr_3);
+
+         // by default array reverse
+         let rev = [45,85,95]
+         console.log(rev.reverse());
+
+        // by default array merge
+        let arr1 = [1,2,3];
+        let arr2 = [3,4,5];
+        let arr3 = [...arr1, ...arr2]
+        console.log(arr3);
+        let arr4 = arr1.concat(arr2)
+        console.log(arr4);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
